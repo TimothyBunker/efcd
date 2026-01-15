@@ -1,0 +1,1160 @@
+{
+  "fields": [
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "array",
+      "missing_count": 0,
+      "name": "geometry.coordinates",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "[-155.378173828125, 19.1991672515869, 29.8299999237061]",
+          1
+        ],
+        [
+          "[-116.4385, 33.9546666666667, 5.44]",
+          1
+        ],
+        [
+          "[-103.905, 31.443, 4.7369]",
+          1
+        ],
+        [
+          "[-122.766334533691, 38.8228340148926, 2.1800000667572]",
+          1
+        ],
+        [
+          "[-122.823501586914, 38.8240013122559, 0.389999985694885]",
+          1
+        ],
+        [
+          "[-116.321833333333, 33.3398333333333, 14.41]",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "geometry.type",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 5,
+        "min_len": 5
+      },
+      "top_values": [
+        [
+          "Point",
+          6
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "id",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 12,
+        "min_len": 10
+      },
+      "top_values": [
+        [
+          "hv74875532",
+          1
+        ],
+        [
+          "ci41157759",
+          1
+        ],
+        [
+          "tx2026azlcmp",
+          1
+        ],
+        [
+          "nc75295771",
+          1
+        ],
+        [
+          "nc75295766",
+          1
+        ],
+        [
+          "ci41157679",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 0,
+      "distinct_overflow": false,
+      "inferred_type": "unknown",
+      "missing_count": 0,
+      "name": "properties.alert",
+      "null_rate": 1.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": []
+    },
+    {
+      "distinct_count": 0,
+      "distinct_overflow": false,
+      "inferred_type": "unknown",
+      "missing_count": 0,
+      "name": "properties.cdi",
+      "null_rate": 1.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": []
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.code",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 75295771.0,
+        "mean": 61556501.4,
+        "min": 41157679.0,
+        "p50": 74875532.0,
+        "p95": 75295771.0,
+        "stdev": 18622245.72804213
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "74875532",
+          1
+        ],
+        [
+          "41157759",
+          1
+        ],
+        [
+          "2026azlcmp",
+          1
+        ],
+        [
+          "75295771",
+          1
+        ],
+        [
+          "75295766",
+          1
+        ],
+        [
+          "41157679",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.detail",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 77,
+        "min_len": 75
+      },
+      "top_values": [
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74875532.geojson",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41157759.geojson",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026azlcmp.geojson",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75295771.geojson",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75295766.geojson",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41157679.geojson",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.dmin",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 0.1213,
+        "mean": 0.06464166666666667,
+        "min": 0.008122,
+        "p50": 0.04228,
+        "p95": 0.1213,
+        "stdev": 0.05108475539989075
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0.04228",
+          1
+        ],
+        [
+          "0.1213",
+          1
+        ],
+        [
+          "0.1",
+          1
+        ],
+        [
+          "0.008122",
+          1
+        ],
+        [
+          "0.009048",
+          1
+        ],
+        [
+          "0.1071",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 0,
+      "distinct_overflow": false,
+      "inferred_type": "unknown",
+      "missing_count": 0,
+      "name": "properties.felt",
+      "null_rate": 1.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": []
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.gap",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 168.0,
+        "mean": 106.83333333333333,
+        "min": 47.0,
+        "p50": 72.0,
+        "p95": 168.0,
+        "stdev": 52.00544843251202
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "168",
+          1
+        ],
+        [
+          "47",
+          1
+        ],
+        [
+          "71",
+          1
+        ],
+        [
+          "116",
+          1
+        ],
+        [
+          "72",
+          1
+        ],
+        [
+          "167",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.ids",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 14,
+        "min_len": 12
+      },
+      "top_values": [
+        [
+          ",hv74875532,",
+          1
+        ],
+        [
+          ",ci41157759,",
+          1
+        ],
+        [
+          ",tx2026azlcmp,",
+          1
+        ],
+        [
+          ",nc75295771,",
+          1
+        ],
+        [
+          ",nc75295766,",
+          1
+        ],
+        [
+          ",ci41157679,",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.mag",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 2.43,
+        "mean": 1.2966666666666666,
+        "min": 0.23,
+        "p50": 1.08,
+        "p95": 2.43,
+        "stdev": 0.7706793539901446
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "2.43",
+          1
+        ],
+        [
+          "0.94",
+          1
+        ],
+        [
+          "1.9",
+          1
+        ],
+        [
+          "1.08",
+          1
+        ],
+        [
+          "0.23",
+          1
+        ],
+        [
+          "1.2",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 2,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.magType",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 2,
+        "min_len": 2
+      },
+      "top_values": [
+        [
+          "ml",
+          4
+        ],
+        [
+          "md",
+          2
+        ]
+      ]
+    },
+    {
+      "distinct_count": 0,
+      "distinct_overflow": false,
+      "inferred_type": "unknown",
+      "missing_count": 0,
+      "name": "properties.mmi",
+      "null_rate": 1.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": []
+    },
+    {
+      "distinct_count": 4,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.net",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 2,
+        "min_len": 2
+      },
+      "top_values": [
+        [
+          "ci",
+          2
+        ],
+        [
+          "nc",
+          2
+        ],
+        [
+          "hv",
+          1
+        ],
+        [
+          "tx",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.nst",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 54.0,
+        "mean": 23.666666666666668,
+        "min": 8.0,
+        "p50": 18.0,
+        "p95": 54.0,
+        "stdev": 16.451950239004088
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "54",
+          1
+        ],
+        [
+          "29",
+          1
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "20",
+          1
+        ],
+        [
+          "8",
+          1
+        ],
+        [
+          "13",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.place",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 32,
+        "min_len": 18
+      },
+      "top_values": [
+        [
+          "10 km E of P\u0101hala, Hawaii",
+          1
+        ],
+        [
+          "6 km E of Desert Hot Springs, CA",
+          1
+        ],
+        [
+          "17 km NW of Toyah, Texas",
+          1
+        ],
+        [
+          "4 km W of Cobb, CA",
+          1
+        ],
+        [
+          "8 km NW of The Geysers, CA",
+          1
+        ],
+        [
+          "11 km NNE of Borrego Springs, CA",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.rms",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 0.5,
+        "mean": 0.1483333335,
+        "min": 0.01,
+        "p50": 0.06,
+        "p95": 0.5,
+        "stdev": 0.18148461825546905
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0.140000001",
+          1
+        ],
+        [
+          "0.15",
+          1
+        ],
+        [
+          "0.5",
+          1
+        ],
+        [
+          "0.03",
+          1
+        ],
+        [
+          "0.01",
+          1
+        ],
+        [
+          "0.06",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.sig",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 91.0,
+        "mean": 33.666666666666664,
+        "min": 1.0,
+        "p50": 18.0,
+        "p95": 91.0,
+        "stdev": 33.53008599253313
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "91",
+          1
+        ],
+        [
+          "14",
+          1
+        ],
+        [
+          "56",
+          1
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "1",
+          1
+        ],
+        [
+          "22",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 4,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.sources",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 4,
+        "min_len": 4
+      },
+      "top_values": [
+        [
+          ",ci,",
+          2
+        ],
+        [
+          ",nc,",
+          2
+        ],
+        [
+          ",hv,",
+          1
+        ],
+        [
+          ",tx,",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.status",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 9,
+        "min_len": 9
+      },
+      "top_values": [
+        [
+          "automatic",
+          6
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.time",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 1768422868510.0,
+        "mean": 1768421525655.0,
+        "min": 1768420306310.0,
+        "p50": 1768420467010.0,
+        "p95": 1768422868510.0,
+        "stdev": 1269013.561751804
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "1768422868510",
+          1
+        ],
+        [
+          "1768422746070",
+          1
+        ],
+        [
+          "1768422410410",
+          1
+        ],
+        [
+          "1768420467010",
+          1
+        ],
+        [
+          "1768420355620",
+          1
+        ],
+        [
+          "1768420306310",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.title",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 40,
+        "min_len": 26
+      },
+      "top_values": [
+        [
+          "M 2.4 - 10 km E of P\u0101hala, Hawaii",
+          1
+        ],
+        [
+          "M 0.9 - 6 km E of Desert Hot Springs, CA",
+          1
+        ],
+        [
+          "M 1.9 - 17 km NW of Toyah, Texas",
+          1
+        ],
+        [
+          "M 1.1 - 4 km W of Cobb, CA",
+          1
+        ],
+        [
+          "M 0.2 - 8 km NW of The Geysers, CA",
+          1
+        ],
+        [
+          "M 1.2 - 11 km NNE of Borrego Springs, CA",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.tsunami",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "stdev": 0.0
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0",
+          6
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.type",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 10,
+        "min_len": 10
+      },
+      "top_values": [
+        [
+          "earthquake",
+          6
+        ]
+      ]
+    },
+    {
+      "distinct_count": 3,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.types",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 46,
+        "min_len": 19
+      },
+      "top_values": [
+        [
+          ",origin,phase-data,",
+          2
+        ],
+        [
+          ",nearby-cities,origin,phase-data,scitech-link,",
+          2
+        ],
+        [
+          ",nearby-cities,origin,phase-data,",
+          2
+        ]
+      ]
+    },
+    {
+      "distinct_count": 0,
+      "distinct_overflow": false,
+      "inferred_type": "unknown",
+      "missing_count": 0,
+      "name": "properties.tz",
+      "null_rate": 1.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": []
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "properties.updated",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 1768423078770.0,
+        "mean": 1768421700360.6667,
+        "min": 1768420453016.0,
+        "p50": 1768420562128.0,
+        "p95": 1768423078770.0,
+        "stdev": 1309547.3784801627
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "1768423078770",
+          1
+        ],
+        [
+          "1768422961288",
+          1
+        ],
+        [
+          "1768422622524",
+          1
+        ],
+        [
+          "1768420562128",
+          1
+        ],
+        [
+          "1768420453016",
+          1
+        ],
+        [
+          "1768420524438",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 6,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "properties.url",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 62,
+        "min_len": 60
+      },
+      "top_values": [
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/hv74875532",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/ci41157759",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026azlcmp",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/nc75295771",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/nc75295766",
+          1
+        ],
+        [
+          "https://earthquake.usgs.gov/earthquakes/eventpage/ci41157679",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "type",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 6,
+      "string": {
+        "max_len": 7,
+        "min_len": 7
+      },
+      "top_values": [
+        [
+          "Feature",
+          6
+        ]
+      ]
+    }
+  ],
+  "profile_id": "20260114T203851Z",
+  "sample": {
+    "bytes": 4687,
+    "rows": 6
+  },
+  "source": {
+    "fetched_at": "2026-01-14T20:38:51Z",
+    "id": "usgs_quakes",
+    "type": "http-json",
+    "uri": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
+  },
+  "stats": {
+    "field_count": 30,
+    "row_count": 6
+  }
+}

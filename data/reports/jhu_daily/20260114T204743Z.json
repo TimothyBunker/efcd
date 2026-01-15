@@ -1,0 +1,180 @@
+{
+  "baseline_profile_id": "20260114T204737Z",
+  "changes": [
+    {
+      "after": "Active",
+      "before": null,
+      "delta": null,
+      "field": "Active",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Admin2",
+      "before": null,
+      "delta": null,
+      "field": "Admin2",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Combined_Key",
+      "before": null,
+      "delta": null,
+      "field": "Combined_Key",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Country_Region",
+      "before": null,
+      "delta": null,
+      "field": "Country_Region",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "FIPS",
+      "before": null,
+      "delta": null,
+      "field": "FIPS",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Last_Update",
+      "before": null,
+      "delta": null,
+      "field": "Last_Update",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Lat",
+      "before": null,
+      "delta": null,
+      "field": "Lat",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Long_",
+      "before": null,
+      "delta": null,
+      "field": "Long_",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": "Province_State",
+      "before": null,
+      "delta": null,
+      "field": "Province_State",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_added"
+    },
+    {
+      "after": null,
+      "before": "Country/Region",
+      "delta": null,
+      "field": "Country/Region",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "before": "Last Update",
+      "delta": null,
+      "field": "Last Update",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "before": "Latitude",
+      "delta": null,
+      "field": "Latitude",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "before": "Longitude",
+      "delta": null,
+      "field": "Longitude",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "before": "Province/State",
+      "delta": null,
+      "field": "Province/State",
+      "metric": "field",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": 14,
+      "before": 38,
+      "delta": 0.368,
+      "field": "Deaths",
+      "metric": "distinct_count",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "distinct_shift"
+    },
+    {
+      "after": 1,
+      "before": 71,
+      "delta": 0.014,
+      "field": "Recovered",
+      "metric": "distinct_count",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "distinct_shift"
+    },
+    {
+      "after": 2000,
+      "before": 340,
+      "delta": 4.882353,
+      "field": "__rows__",
+      "metric": "row_count",
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "row_count_shift"
+    }
+  ],
+  "created_at": "2026-01-14T20:47:43Z",
+  "latest_profile_id": "20260114T204740Z",
+  "report_id": "20260114T204743Z",
+  "severity": "medium",
+  "source_id": "jhu_daily"
+}

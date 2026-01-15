@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EFCD Reports</title>
+  <style>
+    :root {
+      --bg: #f4f2ee;
+      --panel: #ffffff;
+      --ink: #141414;
+      --muted: #5e5e5e;
+      --accent: #1b9aaa;
+      --accent-2: #f18f01;
+      --border: #e3e0da;
+      --shadow: rgba(0, 0, 0, 0.06);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Work Sans", "Source Sans 3", sans-serif;
+      background:
+        radial-gradient(1200px circle at 10% -10%, #fff5dd, transparent 40%),
+        radial-gradient(900px circle at 110% 10%, #e9f7f8, transparent 35%),
+        var(--bg);
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 36px auto 80px;
+      padding: 0 20px;
+      animation: fadeUp 0.6s ease-out;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0;
+      letter-spacing: -0.5px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      box-shadow: 0 12px 24px var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      animation: cardIn 0.5s ease-out;
+    }
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      background: #eef6f6;
+    }
+    .sev-low { color: #1d7f5f; }
+    .sev-med { color: #b45309; }
+    .sev-high { color: #b91c1c; }
+    .sev-unk { color: #4b5563; }
+    .source {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .card-body {
+      display: grid;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .card-body span {
+      display: inline-block;
+      min-width: 90px;
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .card-link {
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 600;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #faf8f4;
+      text-align: center;
+    }
+    .card-link:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .empty {
+      padding: 30px;
+      text-align: center;
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.6);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 720px) {
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>EFCD Reports</h1>
+      <div class="sub">Latest report per source. Severity is ranked high to low.</div>
+    </header>
+    <section class="grid">
+      <article class="card"><div class="card-head"><span class="pill sev-medium">medium</span><span class="source">jhu_daily</span></div><div class="card-body"><div><span>Changes</span>8</div><div><span>Alerts</span>7 (medium)</div><div><span>Baseline</span>seasonal-agg (w7)</div><div><span>Bucket</span>2</div><div><span>Report ID</span>20260115T003651Z</div><div><span>Created</span>2026-01-15T00:36:51Z</div></div><a class="card-link" href="data/reports/jhu_daily/20260115T003651Z.html">open report</a></article>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,667 @@
+{
+  "fields": [
+    {
+      "distinct_count": 115,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Active",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 9591.0,
+        "mean": 16.7215,
+        "min": 0.0,
+        "p50": 1.0,
+        "p95": 39.0,
+        "stdev": 227.62528544306434
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0",
+          851
+        ],
+        [
+          "1",
+          391
+        ],
+        [
+          "2",
+          165
+        ],
+        [
+          "3",
+          101
+        ],
+        [
+          "4",
+          64
+        ],
+        [
+          "6",
+          37
+        ],
+        [
+          "5",
+          33
+        ],
+        [
+          "7",
+          26
+        ],
+        [
+          "8",
+          22
+        ],
+        [
+          "12",
+          17
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1000,
+      "distinct_overflow": true,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "Admin2",
+      "null_rate": 0.0025,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": 21,
+        "min_len": 3
+      },
+      "top_values": [
+        [
+          "Washington",
+          25
+        ],
+        [
+          "Franklin",
+          21
+        ],
+        [
+          "Jefferson",
+          18
+        ],
+        [
+          "Jackson",
+          18
+        ],
+        [
+          "Unassigned",
+          16
+        ],
+        [
+          "Montgomery",
+          16
+        ],
+        [
+          "Monroe",
+          13
+        ],
+        [
+          "Union",
+          13
+        ],
+        [
+          "Madison",
+          13
+        ],
+        [
+          "Lincoln",
+          12
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1000,
+      "distinct_overflow": true,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "Combined_Key",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": 46,
+        "min_len": 8
+      },
+      "top_values": [
+        [
+          "New York City, New York, US",
+          1
+        ],
+        [
+          "Nassau, New York, US",
+          1
+        ],
+        [
+          "Westchester, New York, US",
+          1
+        ],
+        [
+          "Suffolk, New York, US",
+          1
+        ],
+        [
+          "Rockland, New York, US",
+          1
+        ],
+        [
+          "Orange, New York, US",
+          1
+        ],
+        [
+          "Albany, New York, US",
+          1
+        ],
+        [
+          "Dutchess, New York, US",
+          1
+        ],
+        [
+          "Monroe, New York, US",
+          1
+        ],
+        [
+          "Erie, New York, US",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 119,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Confirmed",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 9654.0,
+        "mean": 16.933,
+        "min": 0.0,
+        "p50": 1.0,
+        "p95": 40.0,
+        "stdev": 229.22091882246025
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0",
+          839
+        ],
+        [
+          "1",
+          396
+        ],
+        [
+          "2",
+          168
+        ],
+        [
+          "3",
+          100
+        ],
+        [
+          "4",
+          64
+        ],
+        [
+          "6",
+          37
+        ],
+        [
+          "5",
+          34
+        ],
+        [
+          "7",
+          25
+        ],
+        [
+          "8",
+          23
+        ],
+        [
+          "10",
+          18
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "Country_Region",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": 2,
+        "min_len": 2
+      },
+      "top_values": [
+        [
+          "US",
+          2000
+        ]
+      ]
+    },
+    {
+      "distinct_count": 14,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Deaths",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 75.0,
+        "mean": 0.2195,
+        "min": 0.0,
+        "p50": 0.0,
+        "p95": 1.0,
+        "stdev": 2.4613713503781245
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0",
+          1862
+        ],
+        [
+          "1",
+          93
+        ],
+        [
+          "2",
+          17
+        ],
+        [
+          "3",
+          9
+        ],
+        [
+          "4",
+          5
+        ],
+        [
+          "5",
+          4
+        ],
+        [
+          "10",
+          2
+        ],
+        [
+          "6",
+          2
+        ],
+        [
+          "63",
+          1
+        ],
+        [
+          "9",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1000,
+      "distinct_overflow": true,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "FIPS",
+      "null_rate": 0.0135,
+      "numeric": {
+        "max": 99999.0,
+        "mean": 23901.945767866193,
+        "min": 1001.0,
+        "p50": 20197.0,
+        "p95": 51095.0,
+        "stdev": 14516.921119705064
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "36061",
+          1
+        ],
+        [
+          "36059",
+          1
+        ],
+        [
+          "36119",
+          1
+        ],
+        [
+          "36103",
+          1
+        ],
+        [
+          "36087",
+          1
+        ],
+        [
+          "36071",
+          1
+        ],
+        [
+          "36001",
+          1
+        ],
+        [
+          "36027",
+          1
+        ],
+        [
+          "36055",
+          1
+        ],
+        [
+          "36029",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "Last_Update",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": 13,
+        "min_len": 13
+      },
+      "top_values": [
+        [
+          "3/22/20 23:45",
+          2000
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1000,
+      "distinct_overflow": true,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Lat",
+      "null_rate": 0.005,
+      "numeric": {
+        "max": 69.31479216,
+        "mean": 37.88200806496985,
+        "min": 0.0,
+        "p50": 38.32117957,
+        "p95": 46.20974132,
+        "stdev": 6.574043543015435
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0.0",
+          18
+        ],
+        [
+          "40.7672726",
+          1
+        ],
+        [
+          "40.74066522",
+          1
+        ],
+        [
+          "41.16278376",
+          1
+        ],
+        [
+          "40.88320119",
+          1
+        ],
+        [
+          "41.15027894",
+          1
+        ],
+        [
+          "41.40337468",
+          1
+        ],
+        [
+          "42.60060306",
+          1
+        ],
+        [
+          "41.7648606",
+          1
+        ],
+        [
+          "43.14638895",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1000,
+      "distinct_overflow": true,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Long_",
+      "null_rate": 0.005,
+      "numeric": {
+        "max": 144.7937,
+        "mean": -90.52753879462814,
+        "min": -164.0353804,
+        "p50": -88.08818103,
+        "p95": -74.12384884,
+        "stdev": 17.14299319291263
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0.0",
+          18
+        ],
+        [
+          "-73.97152637",
+          1
+        ],
+        [
+          "-73.58941873",
+          1
+        ],
+        [
+          "-73.75741653",
+          1
+        ],
+        [
+          "-72.8012172",
+          1
+        ],
+        [
+          "-74.02560498",
+          1
+        ],
+        [
+          "-74.30240757",
+          1
+        ],
+        [
+          "-73.97723916",
+          1
+        ],
+        [
+          "-73.74356679",
+          1
+        ],
+        [
+          "-77.69322942",
+          1
+        ]
+      ]
+    },
+    {
+      "distinct_count": 57,
+      "distinct_overflow": false,
+      "inferred_type": "string",
+      "missing_count": 0,
+      "name": "Province_State",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "stdev": null
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": 20,
+        "min_len": 4
+      },
+      "top_values": [
+        [
+          "Georgia",
+          160
+        ],
+        [
+          "Kentucky",
+          121
+        ],
+        [
+          "Kansas",
+          105
+        ],
+        [
+          "Illinois",
+          103
+        ],
+        [
+          "Iowa",
+          99
+        ],
+        [
+          "Indiana",
+          92
+        ],
+        [
+          "Michigan",
+          83
+        ],
+        [
+          "Arkansas",
+          76
+        ],
+        [
+          "Florida",
+          69
+        ],
+        [
+          "Alabama",
+          67
+        ]
+      ]
+    },
+    {
+      "distinct_count": 1,
+      "distinct_overflow": false,
+      "inferred_type": "number",
+      "missing_count": 0,
+      "name": "Recovered",
+      "null_rate": 0.0,
+      "numeric": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "stdev": 0.0
+      },
+      "present_count": 2000,
+      "string": {
+        "max_len": null,
+        "min_len": null
+      },
+      "top_values": [
+        [
+          "0",
+          2000
+        ]
+      ]
+    }
+  ],
+  "profile_id": "20260114T213340Z",
+  "sample": {
+    "bytes": 328254,
+    "rows": 2000
+  },
+  "source": {
+    "fetched_at": "2026-01-14T21:33:40Z",
+    "id": "jhu_daily",
+    "type": "local-csv",
+    "uri": "/tmp/jhu_03-22-2020.csv"
+  },
+  "stats": {
+    "field_count": 12,
+    "row_count": 2000
+  }
+}

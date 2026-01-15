@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EFCD Report - jhu_daily</title>
+  <style>
+    :root {
+      --bg: #f4f2ee;
+      --panel: #ffffff;
+      --ink: #141414;
+      --muted: #5e5e5e;
+      --accent: #1b9aaa;
+      --accent-2: #f18f01;
+      --border: #e3e0da;
+      --shadow: rgba(0, 0, 0, 0.06);
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Work Sans", "Source Sans 3", sans-serif;
+      background:
+        radial-gradient(1200px circle at 10% -10%, #fff5dd, transparent 40%),
+        radial-gradient(900px circle at 110% 10%, #e9f7f8, transparent 35%),
+        var(--bg);
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1080px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+      animation: fadeUp 0.6s ease-out;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0;
+      letter-spacing: -0.5px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #eef6f6;
+      color: var(--ink);
+      font-weight: 600;
+      width: fit-content;
+    }
+    .badge .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      box-shadow: 0 10px 20px var(--shadow);
+      animation: cardIn 0.5s ease-out;
+    }
+    .card h3 {
+      margin: 0 0 6px;
+      font-size: 14px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .card .value {
+      font-size: 22px;
+      font-weight: 600;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 12px 24px var(--shadow);
+    }
+    thead {
+      background: #f6f4f1;
+      text-align: left;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      vertical-align: top;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    .sev-low { color: #1d7f5f; font-weight: 600; }
+    .sev-med { color: #b45309; font-weight: 600; }
+    .sev-high { color: #b91c1c; font-weight: 700; }
+    .sev-unk { color: #4b5563; font-weight: 600; }
+    .empty-row td {
+      text-align: center;
+      color: var(--muted);
+      padding: 24px 14px;
+    }
+    .footer {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 720px) {
+      h1 { font-size: 26px; }
+      th, td { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge"><span class="dot"></span>EFCD Change Report</div>
+      <h1>Source: jhu_daily</h1>
+      <div class="sub">Severity: <span class="sev-med">medium</span></div>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Changes</h3>
+        <div class="value">17</div>
+      </div>
+      <div class="card">
+        <h3>Rows (baseline)</h3>
+        <div class="value">340</div>
+      </div>
+      <div class="card">
+        <h3>Rows (latest)</h3>
+        <div class="value">2000</div>
+      </div>
+      <div class="card">
+        <h3>Row delta</h3>
+        <div class="value">488.24%</div>
+      </div>
+      <div class="card">
+        <h3>Fields (baseline)</h3>
+        <div class="value">8</div>
+      </div>
+      <div class="card">
+        <h3>Fields (latest)</h3>
+        <div class="value">12</div>
+      </div>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Field</th>
+          <th>Change</th>
+          <th>Metric</th>
+          <th>Before</th>
+          <th>After</th>
+          <th>Delta</th>
+          <th>Severity</th>
+          <th>Recommendation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Active</td><td>schema_added</td><td>field</td><td>None</td><td>Active</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Admin2</td><td>schema_added</td><td>field</td><td>None</td><td>Admin2</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Combined_Key</td><td>schema_added</td><td>field</td><td>None</td><td>Combined_Key</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Country_Region</td><td>schema_added</td><td>field</td><td>None</td><td>Country_Region</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>FIPS</td><td>schema_added</td><td>field</td><td>None</td><td>FIPS</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Last_Update</td><td>schema_added</td><td>field</td><td>None</td><td>Last_Update</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Lat</td><td>schema_added</td><td>field</td><td>None</td><td>Lat</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Long_</td><td>schema_added</td><td>field</td><td>None</td><td>Long_</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Province_State</td><td>schema_added</td><td>field</td><td>None</td><td>Province_State</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Country/Region</td><td>schema_removed</td><td>field</td><td>Country/Region</td><td>None</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Last Update</td><td>schema_removed</td><td>field</td><td>Last Update</td><td>None</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Latitude</td><td>schema_removed</td><td>field</td><td>Latitude</td><td>None</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Longitude</td><td>schema_removed</td><td>field</td><td>Longitude</td><td>None</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Province/State</td><td>schema_removed</td><td>field</td><td>Province/State</td><td>None</td><td>None</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Deaths</td><td>distinct_shift</td><td>distinct_count</td><td>38</td><td>14</td><td>0.368</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>Recovered</td><td>distinct_shift</td><td>distinct_count</td><td>71</td><td>1</td><td>0.014</td><td class="sev-medium">medium</td><td>investigate</td></tr><tr><td>__rows__</td><td>row_count_shift</td><td>row_count</td><td>340</td><td>2000</td><td>4.882353</td><td class="sev-medium">medium</td><td>investigate</td></tr>
+      </tbody>
+    </table>
+
+    <div class="footer">Generated by EFCD.</div>
+  </div>
+</body>
+</html>

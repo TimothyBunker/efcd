@@ -1,0 +1,150 @@
+{
+  "alert": true,
+  "alert_count": 7,
+  "alert_severity": "medium",
+  "baseline_meta": {
+    "mode": "seasonal-agg",
+    "profile_id": "rolling-agg-20260114T204737Z-20260114T213335Z",
+    "profile_ids": [
+      "20260114T204737Z",
+      "20260114T204740Z",
+      "20260114T213335Z"
+    ],
+    "seasonality": "weekday",
+    "set_at": null,
+    "window": 7
+  },
+  "baseline_profile_id": "rolling-agg-20260114T204737Z-20260114T213335Z",
+  "baseline_summary": {
+    "field_count": 17,
+    "row_count": 893
+  },
+  "changes": [
+    {
+      "after": null,
+      "alert": false,
+      "before": "Country/Region",
+      "confidence": 0.75,
+      "delta": null,
+      "field": "Country/Region",
+      "importance": "high",
+      "metric": "field",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "alert": true,
+      "before": "Last Update",
+      "confidence": 0.85,
+      "delta": null,
+      "field": "Last Update",
+      "importance": "medium",
+      "metric": "field",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "alert": true,
+      "before": "Latitude",
+      "confidence": 0.85,
+      "delta": null,
+      "field": "Latitude",
+      "importance": "medium",
+      "metric": "field",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "alert": true,
+      "before": "Longitude",
+      "confidence": 0.85,
+      "delta": null,
+      "field": "Longitude",
+      "importance": "medium",
+      "metric": "field",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": null,
+      "alert": true,
+      "before": "Province/State",
+      "confidence": 0.85,
+      "delta": null,
+      "field": "Province/State",
+      "importance": "medium",
+      "metric": "field",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "schema_removed"
+    },
+    {
+      "after": 14,
+      "alert": true,
+      "before": 38,
+      "confidence": 0.9,
+      "delta": 0.368,
+      "field": "Deaths",
+      "importance": "medium",
+      "metric": "distinct_count",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "distinct_shift"
+    },
+    {
+      "after": 1,
+      "alert": true,
+      "before": 71,
+      "confidence": 0.9,
+      "delta": 0.014,
+      "field": "Recovered",
+      "importance": "medium",
+      "metric": "distinct_count",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "distinct_shift"
+    },
+    {
+      "after": 2000,
+      "alert": true,
+      "before": 893,
+      "confidence": 0.9,
+      "delta": 1.239642,
+      "field": "__rows__",
+      "importance": "medium",
+      "metric": "row_count",
+      "persistence_runs": 2,
+      "recommendation": "investigate",
+      "severity": "medium",
+      "type": "row_count_shift"
+    }
+  ],
+  "created_at": "2026-01-15T00:36:51Z",
+  "latest_meta": {
+    "profile_id": "20260114T213340Z"
+  },
+  "latest_profile_id": "20260114T213340Z",
+  "latest_summary": {
+    "field_count": 12,
+    "row_count": 2000
+  },
+  "report_id": "20260115T003651Z",
+  "seasonality": "weekday",
+  "seasonality_bucket": 2,
+  "severity": "medium",
+  "source_id": "jhu_daily"
+}

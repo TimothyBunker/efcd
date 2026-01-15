@@ -1,0 +1,42 @@
+defaults:
+  baseline_mode: rolling-agg
+  baseline_window: 7
+  seasonality: none
+  alert:
+    min_severity: medium
+    min_confidence: 0.6
+    persist_runs: 1
+  thresholds:
+    null_rate_delta: 0.1
+    distinct_ratio: 2.0
+    mean_std_multiplier: 3.0
+    row_count_delta: 0.2
+
+sources:
+  jhu_daily:
+    baseline_mode: seasonal-agg
+    seasonality: weekday
+    alert:
+      min_severity: medium
+      min_confidence: 0.5
+      persist_runs: 1
+    fields:
+      Country/Region:
+        importance: high
+        alert:
+          min_severity: high
+          min_confidence: 0.75
+          persist_runs: 2
+      Country_Region:
+        importance: high
+        alert:
+          min_severity: high
+          min_confidence: 0.75
+          persist_runs: 2
+      Confirmed:
+        type: number
+        importance: high
+        alert:
+          min_severity: medium
+          min_confidence: 0.6
+          persist_runs: 2
