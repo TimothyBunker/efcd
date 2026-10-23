@@ -1,6 +1,6 @@
 # External Feed Change Detector (EFCD)
 
-Detect silent schema and semantic changes in third-party data feeds before they break pipelines.
+A command-line tool for profiling data feeds and comparing schema and field-statistic changes between observations.
 
 ## Quick start
 
@@ -201,7 +201,6 @@ sources:
 Notes:
 - Per-field `alert` overrides global alert thresholds for that field only.
 - If seasonality is set, alert persistence is counted within the same seasonality bucket.
-```
 
 Profiles and reports are stored under `data/` by default.
 
